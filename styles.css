@@ -1,0 +1,34 @@
+
+:root {
+    --color-primary: #C271FF;
+    --color-white: white;
+}
+
+.hero-image {
+    background-image: url(images/pic_1.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    height: 100%;
+    max-width: 100%;
+}
+
+.header img {
+    width: 100px;
+}
+.header .smile-image {
+    width: 40px;
+}
+
+.my-primary-button {
+    border: 1px solid var(--color-primary);
+    border-radius: 22px;
+    background-color: var(--color-primary);
+}
+
+.my-primary-button:hover {
+    opacity: 0.9;
+}
+
+.text-learn {
+    color: var(--color-primary);
+}
