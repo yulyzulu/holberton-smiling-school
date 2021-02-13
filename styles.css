@@ -113,3 +113,17 @@
 .signal-logo {
     width: 80px;
 }
+
+.hero-image-courses {
+    background-image: url(images/pic_3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    max-width: 100%;
+    background-color: var(--color-blue);
+
+}
+
+.hero-text-courses {
+    font-family: Coiny;
+}
