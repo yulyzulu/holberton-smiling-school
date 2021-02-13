@@ -2,21 +2,22 @@
 :root {
     --color-primary: #C271FF;
     --color-white: white;
+    --color-blue: #071629;
 }
 
 .hero-image {
     background-image: url(images/pic_1.jpg);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     height: 100%;
     max-width: 100%;
     background-color: white;
 }
 
-.header img {
+.header img, footer img {
     width: 100px;
 }
-.header .smile-image {
+.header .smile-image, footer .smile-image {
     width: 40px;
 }
 
@@ -25,6 +26,10 @@
     border-radius: 22px;
     background-color: var(--color-primary);
 }
+
+/* a:hover, a:focus {
+    box-shadow: none;
+    /* box-shadow: none;  */
 
 .my-primary-button:hover {
     opacity: 0.9;
@@ -74,3 +79,41 @@
 .video-background{
     position: relative;
   }
+
+.smile-section {
+      background-color: var(--color-blue);
+}
+
+/* Pricing styles */
+
+.hero-image-pricing {
+    background-image: url(images/pic_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    max-width: 100%;
+    background-color: var(--color-blue);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--color-white);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--color-primary);
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: var(--color-white);
+    text-decoration-style: solid;
+}
+
+.part-hero img {
+    width: 150px;
+}
+.part-hero .smile-image {
+    width: 40px;
+}
+
+.signal-logo {
+    width: 80px;
+}
