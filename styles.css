@@ -27,10 +27,6 @@
     background-color: var(--color-primary);
 }
 
-/* a:hover, a:focus {
-    box-shadow: none;
-    /* box-shadow: none;  */
-
 .my-primary-button:hover {
     opacity: 0.9;
 }
