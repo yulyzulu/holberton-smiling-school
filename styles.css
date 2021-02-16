@@ -114,6 +114,7 @@
     width: 80px;
 }
 
+/* Courses */
 .hero-image-courses {
     background-image: url(images/pic_3.jpg);
     background-size: cover;
@@ -124,6 +125,26 @@
 
 }
 
+.background-purple {
+    background-color: var(--color-primary);
+}
+
 .hero-text-courses {
     font-family: Coiny;
+}
+
+.select-option a:hover{
+    color: var(--color-primary);
+
+}
+
+.opacity-color {
+    opacity: 0.5;
+    color: var(--color-white);
+}
+
+.dropdown-toggle {
+    opacity: 0.5;
+    text-align: left;
+    padding-right: 20px;
 }
